@@ -1,0 +1,10 @@
+[application]
+name = "clock"                                        # Must match this folder's name
+version = "1.1.0"
+descriptions = "A dim, low-glare digital clock with knob-driven settings (format, brightness, blink, theme); shows a red REMOTE ACTIVE indicator while a remote KVM session is connected."
+
+[author]
+name = "Ryan Adams"
+
+[interaction]
+requires_user_input = true    # App handles touch itself (Settings screen); hold ~3s anywhere to exit back to NanoKVM-UI
